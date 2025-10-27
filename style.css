@@ -1,0 +1,206 @@
+/* Style de Base */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* En-tête et Navigation */
+header {
+    background-color: #36393f; /* Discord Dark */
+    color: white;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    display: inline-block;
+}
+
+header nav {
+    float: right;
+    padding-top: 5px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+header nav a:hover {
+    background-color: #7289da; /* Discord Blurple */
+}
+
+.btn-invite {
+    background-color: #5865f2;
+    font-weight: bold;
+}
+
+/* Boutons Génériques */
+.btn-primary, .btn-secondary, .btn-patreon, .btn-kofi {
+    display: inline-block;
+    padding: 10px 25px;
+    margin: 10px 10px 10px 0;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-primary {
+    background-color: #7289da;
+    color: white;
+}
+.btn-primary:hover {
+    background-color: #677bc4;
+    transform: translateY(-2px);
+}
+
+/* Section Accueil */
+.hero {
+    background-color: #fff;
+    text-align: center;
+    padding: 80px 0;
+    border-bottom: 2px solid #ddd;
+}
+
+/* Section Commandes */
+.commands {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.commands h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #5865f2;
+}
+
+.prefix-note {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 30px;
+    font-size: 1.1em;
+}
+
+.command-category {
+    margin-bottom: 40px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.command-category h3 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    color: #2c2f33;
+}
+
+.command-category table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.command-category th, .command-category td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.command-category th {
+    background-color: #eee;
+    font-weight: bold;
+}
+
+/* Section Soutien */
+.support {
+    padding: 60px 0;
+    background-color: #36393f;
+    color: white;
+    text-align: center;
+}
+
+.support h2 {
+    color: #ffcc4d; /* Couleur Or/Crown */
+    margin-bottom: 30px;
+}
+
+.premium-features {
+    background-color: #2c2f33;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    display: inline-block;
+    max-width: 600px;
+    text-align: left;
+}
+
+.premium-features h3 {
+    color: #ffcc4d;
+    border-bottom: 1px solid #4f545c;
+    padding-bottom: 10px;
+}
+
+.premium-features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.premium-features li {
+    padding: 5px 0;
+}
+
+.support-links a {
+    margin: 10px;
+}
+
+.btn-patreon {
+    background-color: #f96854;
+    color: white;
+}
+.btn-patreon:hover {
+    background-color: #e55a49;
+}
+
+.btn-kofi {
+    background-color: #29abe0;
+    color: white;
+}
+.btn-kofi:hover {
+    background-color: #2499c7;
+}
+
+/* Pied de page */
+footer {
+    background-color: #23272a;
+    color: #b9bbbe;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #7289da;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
